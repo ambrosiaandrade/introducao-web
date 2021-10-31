@@ -1,0 +1,22 @@
+Sobre o TO DO List
+
+Algumas sugestões abaixo para que você possa praticar
+
+1) Melhore a função tarefaFeita(), que marca a tarefa como concluída. Implemente algo que permita o usuário desmarcar a tarefa, voltando assim o aspecto original da lista.
+
+2) Ainda na função tarefaFeita(), altere o código para que o texto fique tachado, por exemplo.
+
+3) Implemente outros dois inputs do tipo cor, para que o usuário possa escolher a cor de fundo da tarefa feita, assim como o da tarefa não feita.
+
+4) Implemente em algum local da página, um evento DOM. 
+Segue um link com exemplos: https://www.w3schools.com/js/js_htmldom_events.asp
+
+
+Material que pode auxiliar:
+
+Ícones > https://www.w3schools.com/icons/default.asp
+Decoração de Texto > https://www.w3schools.com/css/css_text_decoration.asp
+Eventos DOM > https://www.w3schools.com/js/js_htmldom_events.asp
+Nodes DOM > https://www.w3schools.com/js/js_htmldom_nodes.asp
+Lista Node DOM > https://www.w3schools.com/js/js_htmldom_nodelist.asp
+Unidades relativas e absolutas no CSS > https://www.w3.org/Style/Examples/007/units.pt_BR.html

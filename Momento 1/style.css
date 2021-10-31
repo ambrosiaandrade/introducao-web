@@ -1,0 +1,76 @@
+h1{
+    text-align: center;
+}
+
+* {
+    font-family: "arial";
+    padding: 0;
+}
+
+label {
+    font-size: small;
+}
+
+/* Botão adicionar */
+#addTarefa {
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    cursor: pointer;
+    background-color: #bbb;
+}
+
+#addTarefa:hover {
+    background-color: #000;
+}
+
+
+.realizada {
+    background-color: rgb(196, 255, 239);
+}
+
+.naoFeita {
+    background-color: rgb(253, 203, 203);
+}
+
+/* Unidades relativas e absolutas no CSS
+https://www.w3.org/Style/Examples/007/units.pt_BR.html
+*/
+
+input[type="text"]{
+    width: 30em;
+    height: 1.5em;
+}
+
+input[type="color"]{
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+}
+
+/* Tamanho dos ícones */
+.fa {
+    font-size:24px;
+}
+
+ul {
+    padding-left: none;
+}
+
+li {
+    padding: 8px;
+    list-style-type: none;
+}
+
+.alteracao {
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}

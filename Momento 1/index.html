@@ -4,11 +4,46 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    
+    <!-- Valor Hexadecimal https://www.toptal.com/designers/htmlarrows/ -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>TODO list</title>
 </head>
 <body>
-    <div></div>
-    <div id="alligator"></div>
-    <div></div>
+
+    <h1>TO DO List</h1>
+    
+    <hr>
+
+    <label for="corTarefa">Cor de fundo do título</label>
+    <input type="color" id="corTarefa" onchange="setCor(value)">
+
+    <!-- HOMEWORK: Altere o código e coloque para o usuário poder escolher a cor do tarefa feita e não feita -->
+    <!-- HOMEWORK: Altere o código para que a tarefa marcada como feita, fique tachada por exemplo -->
+    
+    <hr>
+
+    <input type="button" value="Adicionar" id="addTarefa" onclick="adicionarTarefa()">
+    <input type="text" id="textoTarefa" placeholder="Escreva a tarefa...">
+
+    <hr>
+
+    <ul id="tarefas">
+        <li>
+            <button class="alteracao" type="button" onclick="tarefaFeita(this.parentNode)">
+                <i class="fa fa-check-square"></i>
+            </button>
+            <button class="alteracao" type="button" onclick="tarefaNaoFeita(this.parentNode)">
+                <i class="fa fa-minus-square"></i>
+            </button>
+            <button class="alteracao" type="button" onclick="removerTarefa(this.parentNode)">
+                <i class="fa fa-trash-o"></i>
+            </button>
+            <span>Fazer TODO list</span>
+        </li>
+    </ul>
+ 
+    <script src="./script.js"></script>
 </body>
 </html>
