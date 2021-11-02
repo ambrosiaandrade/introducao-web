@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- Metadados -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Ambrósia Andrade">
+    <!-- Nossos ícones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>TODO</title>
+</head>
+<!-- aqui no body é renderizaado na página -->
+<body>
+
+    <h1>TODO list</h1>
+    <hr>
+
+    <!-- Parte para configurar -->
+    <label for="corDeFundoTitulo" id="labelCorDeFundo">Cor de fundo do título</label>
+    <input id="corDeFundoTitulo" type="color" onchange="setBackgroundTitle(value)">
+
+    <hr>
+    
+    <input type="button" value="Adicionar" id="addTarefa" onclick="adicionarTarefa()">
+    <input type="text" id="textoTarefa" placeholder="Escreva a tarefa...">
+    
+    <ul id="mae">
+        <li id="tenteMeTirar">
+            <button class="alteracao" onclick="tarefaFeita(this.parentNode)"><i class="fa fa-check-square"></i></button> 
+            <button class="alteracao" onclick="tarefaNaoFeita(this.parentNode)"><i class="fa fa-minus-square"></i></button> 
+            <button class="alteracao" onclick="removerTarefa(this.parentNode)"><i class="fa fa-trash-o"></i></button> 
+            <span>Fazer TODO list</span>
+        </li>
+    </ul>
+    
+    <script defer src="./script.js"></script>
+
+    
+</body>
+</html>

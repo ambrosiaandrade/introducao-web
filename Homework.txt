@@ -11,6 +11,9 @@ Algumas sugestões abaixo para que você possa praticar
 4) Implemente em algum local da página, um evento DOM. 
 Segue um link com exemplos: https://www.w3schools.com/js/js_htmldom_events.asp
 
+5) Implemente uma página HTML com 3 inputs do tipo range, os valores mínimos são 0, e os máximos são 255. Com esses valores você irá mudar a cor do background.
+https://www.w3schools.com/css/css_colors_rgb.asp
+
 
 Material que pode auxiliar:
 

@@ -1,0 +1,1 @@
+umaVariavel: number = 0;

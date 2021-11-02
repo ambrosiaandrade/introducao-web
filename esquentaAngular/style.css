@@ -1,0 +1,66 @@
+:root{
+    --minhaCor: rgb(219, 47, 47);
+}
+
+* {
+    font-family: "arial";
+}
+
+h1 {
+    color: var(--minhaCor);
+    text-align: center;
+    background-color: aquamarine;
+}
+
+ul {
+    padding-left: 0px;
+}
+
+li {
+    list-style-type: none;
+    padding: 8px;
+}
+
+.alteracao{
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+span{
+    margin-left: 5px;
+}
+
+#addTarefa{
+    cursor: pointer;
+    border: none;
+    color: white;
+    background-color: #bbb;
+    padding: 5px 10px;
+    font-size: 12px;
+}
+
+#addTarefa:hover{
+    background-color: #000;
+}
+
+input[type="text"]{
+    width: 30em;
+    height: 1.5em;
+}
+
+input[type="color"]{
+    border: none;
+}
+
+.realizada {
+    background-color: rgb(196,255,239);
+}
+
+.naoFeita {
+    background-color: rgb(253, 203, 203);
+}
+

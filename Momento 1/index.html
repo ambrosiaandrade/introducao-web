@@ -18,9 +18,7 @@
 
     <label for="corTarefa">Cor de fundo do título</label>
     <input type="color" id="corTarefa" onchange="setCor(value)">
-
     <!-- HOMEWORK: Altere o código e coloque para o usuário poder escolher a cor do tarefa feita e não feita -->
-    <!-- HOMEWORK: Altere o código para que a tarefa marcada como feita, fique tachada por exemplo -->
     
     <hr>
 
@@ -31,6 +29,7 @@
 
     <ul id="tarefas">
         <li>
+            <!-- HOMEWORK: Mudar a cor do fundo de acordo com a escolha do usuário -->
             <button class="alteracao" type="button" onclick="tarefaFeita(this.parentNode)">
                 <i class="fa fa-check-square"></i>
             </button>
@@ -43,6 +42,10 @@
             <span>Fazer TODO list</span>
         </li>
     </ul>
+
+    <!-- EXEMPLO DE addEventListener -->
+    <!-- <input type="text" id="eventoTeclado">Teclado</input>
+    <input type="text" id="eventoMouse">Mouse</input> -->
  
     <script src="./script.js"></script>
 </body>
