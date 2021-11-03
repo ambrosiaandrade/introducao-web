@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap");
+
+* {
+  font-family: "Zen Kurenaido", sans-serif;
+  margin: 1%;
+}
+
+nav {
+  border-bottom: 3px solid rgb(0, 162, 255);
+  border-top: 3px solid rgb(0, 162, 255);
+  /* border-radius: 10px; */
+  display: flex;
+}
+
+:root {
+  --light: rgb(221, 239, 250);
+}
+
+.testeNagevacao {
+  height: 10em;
+  width: 40em;
+  border-radius: 10px;
+  border-left: 4px solid rgb(37, 37, 37);
+}
+
+li {
+  margin-top: 50px;
+  margin-left: 0px;
+  background-color: var(--light);
+  padding: 10px;
+  list-style-type: none;
+  color: black;
+}
+
+.night-mode {
+  color: white;
+  background-color: rgb(31, 29, 30);
+}
+
+.night-mode a {
+    color: white;
+}
+
+.night-mode li {
+    color: black;
+}
+
+.night-mode .testeNagevacao{
+  background-color: white;
+  border-left: 4px solid rgb(0, 162, 255);
+}
+
+.night-mode nav {
+  background-color:rgb(0, 162, 255);
+  border-bottom: 3px solid rgb(221, 239, 250);
+  border-top: 3px solid rgb(221, 239, 250);
+  color: white;
+}
+
+input[type="checkbox"] {
+  margin-left: 0px;
+  margin-top: 8px;
+  width: 1.2em;
+  height: 1.2em;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+ul {
+  padding-left: 0px;
+}
+
+div {
+  margin-top: 2em;
+}
+
+#spaceMe {
+  flex-grow: 1;
+}
+
+#configuracaoTema{
+  margin: 5px;
+}

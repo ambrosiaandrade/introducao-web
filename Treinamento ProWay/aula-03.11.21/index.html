@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Summarizes the contents of your page for the benefit of users and search engines -->
+    <meta charset="UTF-8" />
+    <meta
+      name="author"
+      description="Ambrósia, Alice, Ana Rita, Ana Melo, Evelin, Paula"
+    />
+    <meta name="keywords" description="Aula prática de HTML e CSS" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Aula da tarde - 03/11/21</title>
+  </head>
+  <body>
+    <nav>
+      <h1>Aula da tarde - 03/11/21</h1>
+      <span id="spaceMe"></span>
+      <div id="configuracaoTema">
+        <label for="night-mode">Tema escuro</label>
+        <input
+          id="night-mode"
+          class="lamp"
+          type="checkbox"
+          aria-label="night-mode"
+        />
+      </div>
+    </nav>
+
+    <div>
+      <!-- aqui vamos ver a linkagem -->
+      <h4>Menu</h4>
+      <a href="#Estudante"> <i class="fa fa-chain"></i> Ir para Estudante</a
+      ><br />
+      <a href="#Docente"> <i class="fa fa-chain"></i> Ir para Docente</a><br />
+      <a href="#Disciplina"> <i class="fa fa-chain"></i> Ir para Disciplina</a
+      ><br />
+      <a href="#Matrícula"> <i class="fa fa-chain"></i> Ir para Matrícula</a
+      ><br />
+      <a href="#Nota"> <i class="fa fa-chain"></i> Ir para Nota</a><br />
+    </div>
+
+    <div class="container">
+      <ul>
+        <li id="Estudante" class="testeNagevacao">
+          <h3>Estudante</h3>
+          <a href="./html/estudante.html">
+            <img src="./img/student-128.png" alt="Estudante" />
+          </a>
+        </li>
+
+        <li id="Docente" class="testeNagevacao">
+          <h3>Docente</h3>
+          <a href="./html/docente.html">
+            <img src="./img/docente-128.png" alt="Docente" />
+          </a>
+        </li>
+        <li id="Disciplina" class="testeNagevacao">
+          <h3>Disciplina</h3>
+          <a href="./html/disciplina.html">
+            <img src="./img/disciplina-128.png" alt="Disciplina" />
+          </a>
+        </li>
+        <li id="Matrícula" class="testeNagevacao">
+          <h3>Matrícula</h3>
+          <a href="./html/matricula.html">
+            <img src="./img/matricula-128.png" alt="Matrícula" />
+          </a>
+        </li>
+        <li id="Nota" class="testeNagevacao">
+          <h3>Nota</h3>
+          <a href="./html/nota.html">
+            <img src="./img/score-128.png" alt="Nota" />
+          </a>
+        </li>
+      </ul>
+    </div>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
