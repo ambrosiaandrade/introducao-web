@@ -15,5 +15,5 @@ Tecnologias 🖥: HTML, CSS e JavaScript
 Tecnologias 🖥: HTML, CSS e JavaScript
 
 Breve descrição de algumas funcionalidades:
-- Tema escuro / claro
+- Tema escuro / claro - ✨ Inspirado em [Willian Justen](https://willianjusten.com.br/adicionando-night-mode-no-seu-site)
 - Menu que navega para uma parte da página
