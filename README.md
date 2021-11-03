@@ -13,6 +13,7 @@ Tecnologias 🖥: HTML, CSS e JavaScript
 
 ### Projeto escola
 Tecnologias 🖥: HTML, CSS e JavaScript
+
 Breve descrição de algumas funcionalidades:
 - Tema escuro / claro
 - Menu que navega para uma parte da página
