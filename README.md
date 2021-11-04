@@ -11,7 +11,7 @@ Tecnologias 🖥: HTML, CSS e JavaScript
 É onde ficam os códigos das aulas
 
 
-### Projeto escola
+### Aula 03.11.21 - Projeto escola
 Tecnologias 🖥: HTML, CSS e JavaScript
 
 Breve descrição de algumas funcionalidades:
